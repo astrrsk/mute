@@ -1,0 +1,26 @@
+{
+  "name": "mute",
+  "description": "A typed safe Omegga plugin.",
+  "author": "astrsk",
+  "config": {
+    "muteRole": {
+      "name": "muteRole",
+      "description": "The role used to mute players",
+      "default": "Muted",
+      "type": "string"
+    },
+    "canMute": {
+      "name": "canMute",
+      "description": "Roles that can use the mute commands. Separated by commas, case sensitive",
+      "default": "Admin,Moderator",
+      "type": "string"
+    },
+    "interval": {
+      "name": "checkInterval",
+      "description": "The mute check interval in seconds.",
+      "default": "5",
+      "type": "number"
+    }
+  },
+  "commands": []
+}
